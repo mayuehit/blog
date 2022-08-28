@@ -1,4 +1,4 @@
-# Another blog post
+export default `# Another blog post
 
 _March 23, 2020 by [Matt](/)_
 
@@ -15,3 +15,4 @@ Aenean lacinia bibendum nulla sed consectetur.
 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+`

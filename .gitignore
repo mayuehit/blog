@@ -1,0 +1,6 @@
+node_modules
+build
+build.zip
+src/test.js
+src/test.ts
+package-lock.json

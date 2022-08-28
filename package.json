@@ -5,15 +5,16 @@
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
-    "@mui/material": "latest",
     "@mui/icons-material": "latest",
+    "@mui/material": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "markdown-to-jsx": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "latest",
-    "typescript": "latest",
-    "markdown-to-jsx": "latest"
+    "tsc": "^2.0.4",
+    "typescript": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
