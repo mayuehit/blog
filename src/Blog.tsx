@@ -86,6 +86,7 @@ const sidebar = {
 const theme = createTheme();
 
 export default function Blog() {
+  
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
