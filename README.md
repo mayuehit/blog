@@ -43,7 +43,9 @@ You can head back to the documentation, continuing browsing it from the [templat
 
 ## My QA
 
-blog markdown don't load normaly,see the [issue](https://github.com/mui/material-ui/issues/13501) 
+blog markdown don't load normaly,see the [issue](https://github.com/mui/material-ui/issues/13501)
+
+[跨域问题](https://stackoverflow.com/questions/70473095/options-allowedhosts0-should-be-a-non-empty-string-when-adding-proxy-to-pac)
 
 ## What I Study
 

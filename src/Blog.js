@@ -91,9 +91,13 @@ export default class Blog extends React.Component {
   }
   componentDidMount() {
     const _this = this;
-    axios.get("http://localhost:8081/hotblogs").then(response=>{
-      console.log(response)
-      _this.setState({posts:response.data,isLoaded:true});
+    axios.get("http://localhost:3000/api/hotblogs").then(response=>{
+      console.log(response.data);
+      var contents = [];
+      response.data.map(d=>{
+        console.log(d);
+        contents.push(d.blog_content)});
+      _this.setState({posts:contents,isLoaded:true});
     }).catch(err=>{
       console.log("axios",err);
       _this.setState({isLoaded:false});
